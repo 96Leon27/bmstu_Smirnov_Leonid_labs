@@ -4,7 +4,7 @@ using namespace std;
 
 
 // функция высчета дистанции между парой точек
-int d(int x1, int y1, int x2, int y2) {
+int d(double x1, double y1, double x2, double y2) {
 	return pow(pow(x1 - x2, 2) + pow(y1 - y2, 2), 0.5);
 }
 
@@ -13,14 +13,14 @@ int main() {
 	// задание переменных
 	const int n = 3;
 
-	int f_x = 0;
-	int f_y = 0;
-	int x1 = 0;
-	int y1 = 0;
-	int x2 = 0;
-	int y2 = 0;
+	double f_x = 0;
+	double f_y = 0;
+	double x1 = 0;
+	double y1 = 0;
+	double x2 = 0;
+	double y2 = 0;
 
-	int P = 0;
+	double P = 0;
 
 	cout << "Введите координаты Х вершины 1: ";
 	cin >> x1;

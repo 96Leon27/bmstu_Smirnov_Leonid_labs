@@ -29,9 +29,6 @@ int main() {
 		cin >> arr_y[i];
 	}
 
-	cout << arr_x[0] << " " << arr_x[1] << " " << arr_x[2] << endl;
-	cout << arr_y[0] << " " << arr_y[1] << " " << arr_y[2] << endl;
-
 	double S = abs(arr_x[0] * (arr_y[1] - arr_y[2]) + arr_x[1] * (arr_y[2] - arr_y[0]) + arr_x[2] * (arr_y[0] - arr_y[1])) / 2.0;
 
 	// вывод результатов

@@ -2,22 +2,16 @@
 #include <cmath>
 using namespace std;
 
-
-// функция высчета дистанции между парой точек
-int d(int x1, int y1, int x2, int y2) {
-	return pow(pow(x1 - x2, 2) + pow(y1 - y2, 2), 0.5);
-}
-
 int main() {
 
 	// задание переменных
 	const int n = 3;
 
-	int arr_x[n] = {};
-	int arr_y[n] = {};
+	double arr_x[n] = {};
+	double arr_y[n] = {};
 
-	int x = 0;
-	int y = 0;
+	double x = 0;
+	double y = 0;
 	
 	
 	// цикл перебора вершин
